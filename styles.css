@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark gray text */
+}
+
+header {
+    background-color: #4682b4; /* Steel blue */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: #5a9bd4; /* Lighter blue */
+}
+
+nav .navbar-nav .nav-link {
+    color: white;
+}
+
+nav .navbar-nav .nav-link:hover {
+    color: black;
+}
+
+main {
+    flex: 1;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+main h2 {
+    color: #4682b4; /* Steel blue */
+}
+
+footer {
+    background-color: #4682b4; /* Steel blue */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #4682b4; /* Steel blue */
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #4682b4;
+    border-color: #4682b4;
+}
+
+.btn-primary:hover {
+    background-color: #5a9bd4;
+    border-color: #5a9bd4;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a9bd4;
+    border-color: #5a9bd4;
+}

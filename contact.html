@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .contact-section {
+            background-color: #f0f8ff;
+            padding: 60px 0;
+        }
+        .contact-section h2 {
+            color: #4682b4;
+            margin-bottom: 30px;
+        }
+        .contact-form {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form label {
+            color: #333;
+            font-weight: bold;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 20px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            display: inline-block;
+        }
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+        }
+        .footer {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg" style="background-color: #5a9bd4;">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active"><a class="nav-link" href="Home.html" style="color: white;">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="About Me.html" style="color: white;">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="projects.html" style="color: white;">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html" style="color: white;">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html" style="color: white;">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container contact-section">
+        <section class="contact-form-section">
+            <h2>Contact Form</h2>
+            <div class="contact-form">
+                <form action="ThankYouPage.html" method="get">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <input type="submit" value="Submit" class="btn btn-primary" style="background-color: #4682b4; border-color: #4682b4;">
+                </form>
+            </div>
+        </section>
+        <section class="social-media-section">
+            <h2>Follow Me</h2>
+            <div class="social-icons">
+                <a href="https://twitter.com/yourprofile" style="margin: 0 10px;"><img src="xicon.png" alt="Twitter" style="width: 40px; height: 40px;"></a>
+                <a href="https://linkedin.com/in/yourprofile" style="margin: 0 10px;"><img src="linkedinicon.png" alt="LinkedIn" style="width: 40px; height: 40px;"></a>
+                <a href="https://github.com/yourprofile" style="margin: 0 10px;"><img src="githubicon.png" alt="GitHub" style="width: 40px; height: 40px;"></a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>
